@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mess Management Calculator</h1>
+        <div id="table-container">
+            <table class="mainTable">
+                <thead>
+                    <tr>
+                        <th>Member Name</th>
+                        <th>Meal Count</th>
+                        <th>Bazar Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input class="inputName" type="text" placeholder="Input Your Name"></td>
+                        <td><input class="inputMeal" type="number" placeholder="00"></td>
+                        <td><input class="inputBazar" type="number" placeholder="00.00"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="button-group">
+            <button class="addMember">Add Member</button>
+            <button class="calculate">Calculate</button>
+        </div>
+        
+        <div id="results" class="results"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 
