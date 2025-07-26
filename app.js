@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const mealInput = document.createElement('input');
         mealInput.type = 'number';
         mealInput.className = 'inputMeal';
-        mealInput.placeholder = '00';
+        mealInput.placeholder = '00.00';
         mealCell.appendChild(mealInput);
         
         // Bazar cell
